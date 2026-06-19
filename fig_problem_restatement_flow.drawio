@@ -1,0 +1,52 @@
+<mxfile host="app.diagrams.net" modified="2026-06-19T00:00:00.000Z" agent="Claude" version="24.7.17" type="device">
+  <diagram id="problem-restatement-flow" name="Problem Restatement Flow">
+    <mxGraphModel dx="1422" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title" value="Time Series Analysis Workflow" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=22;fontStyle=1;fontColor=#1F2937;" vertex="1" parent="1">
+          <mxGeometry x="334" y="40" width="500" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="n1" value="Data Source&lt;br&gt;2019--2023" style="rounded=1;whiteSpace=wrap;html=1;arcSize=12;fillColor=#DAE8FC;strokeColor=#6C8EBF;fontSize=14;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="130" width="150" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="n2" value="Data Cleaning&lt;br&gt;Date and Units" style="rounded=1;whiteSpace=wrap;html=1;arcSize=12;fillColor=#D5E8D4;strokeColor=#82B366;fontSize=14;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="130" width="150" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="n3" value="Exploratory&lt;br&gt;Analysis" style="rounded=1;whiteSpace=wrap;html=1;arcSize=12;fillColor=#FFF2CC;strokeColor=#D6B656;fontSize=14;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="470" y="130" width="150" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="n4" value="Stationarity Test&lt;br&gt;ADF and KPSS" style="rounded=1;whiteSpace=wrap;html=1;arcSize=12;fillColor=#F8CECC;strokeColor=#B85450;fontSize=14;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="670" y="130" width="150" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="n5" value="Transformation&lt;br&gt;Log and Difference" style="rounded=1;whiteSpace=wrap;html=1;arcSize=12;fillColor=#E1D5E7;strokeColor=#9673A6;fontSize=14;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="870" y="130" width="170" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="n6" value="Order Selection&lt;br&gt;ACF/PACF and Grid" style="rounded=1;whiteSpace=wrap;html=1;arcSize=12;fillColor=#DAE8FC;strokeColor=#6C8EBF;fontSize=14;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="870" y="300" width="170" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="n7" value="Parameter&lt;br&gt;Estimation" style="rounded=1;whiteSpace=wrap;html=1;arcSize=12;fillColor=#D5E8D4;strokeColor=#82B366;fontSize=14;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="670" y="300" width="150" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="n8" value="Diagnostics&lt;br&gt;Residual Tests" style="rounded=1;whiteSpace=wrap;html=1;arcSize=12;fillColor=#FFF2CC;strokeColor=#D6B656;fontSize=14;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="470" y="300" width="150" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="n9" value="Model Selection&lt;br&gt;SARIMA vs ETS" style="rounded=1;whiteSpace=wrap;html=1;arcSize=12;fillColor=#F8CECC;strokeColor=#B85450;fontSize=14;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="300" width="150" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="n10" value="Forecast and&lt;br&gt;Conclusion" style="rounded=1;whiteSpace=wrap;html=1;arcSize=12;fillColor=#E1D5E7;strokeColor=#9673A6;fontSize=14;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="300" width="150" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="e1" style="endArrow=block;html=1;rounded=0;strokeWidth=2;strokeColor=#4B5563;" edge="1" parent="1" source="n1" target="n2"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="e2" style="endArrow=block;html=1;rounded=0;strokeWidth=2;strokeColor=#4B5563;" edge="1" parent="1" source="n2" target="n3"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="e3" style="endArrow=block;html=1;rounded=0;strokeWidth=2;strokeColor=#4B5563;" edge="1" parent="1" source="n3" target="n4"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="e4" style="endArrow=block;html=1;rounded=0;strokeWidth=2;strokeColor=#4B5563;" edge="1" parent="1" source="n4" target="n5"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="e5" style="endArrow=block;html=1;rounded=0;strokeWidth=2;strokeColor=#4B5563;" edge="1" parent="1" source="n5" target="n6"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="e6" style="endArrow=block;html=1;rounded=0;strokeWidth=2;strokeColor=#4B5563;" edge="1" parent="1" source="n6" target="n7"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="e7" style="endArrow=block;html=1;rounded=0;strokeWidth=2;strokeColor=#4B5563;" edge="1" parent="1" source="n7" target="n8"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="e8" style="endArrow=block;html=1;rounded=0;strokeWidth=2;strokeColor=#4B5563;" edge="1" parent="1" source="n8" target="n9"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="e9" style="endArrow=block;html=1;rounded=0;strokeWidth=2;strokeColor=#4B5563;" edge="1" parent="1" source="n9" target="n10"><mxGeometry relative="1" as="geometry" /></mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
